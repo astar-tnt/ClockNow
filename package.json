@@ -1,0 +1,12 @@
+{
+  "name": "ClockNow",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/astar-tnt/ClockNow.git",
+  "author": "阿星 <astar@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {},
+  "dependencies": {
+    "node-cron": "^3.0.3"
+  }
+}
