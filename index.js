@@ -1,10 +1,11 @@
 const cron = require("node-cron");
 const { NoticeApi } = require("./config");
+const axios = require("axios");
 function executeTask() {
-  fetch(NoticeApi);
+  axios.get(NoticeApi);
   setTimeout(() => {
     console.log(`30秒,执行第二次提醒`);
-    fetch(NoticeApi);
+    axios.get(NoticeApi);
   }, 30000);
   console.log("执行定时任务");
   // 在这里添加您想要执行的代码

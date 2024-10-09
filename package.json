@@ -5,8 +5,8 @@
   "repository": "https://github.com/astar-tnt/ClockNow.git",
   "author": "阿星 <astar@gmail.com>",
   "license": "MIT",
-  "devDependencies": {},
   "dependencies": {
+    "axios": "^1.7.7",
     "node-cron": "^3.0.3"
   }
 }
